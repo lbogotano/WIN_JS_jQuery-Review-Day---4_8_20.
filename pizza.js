@@ -1,10 +1,11 @@
-toppings = ['cheese','pepperoni','garlic','peppers'];
+var pizzaToppings = ['cheese','pepperoni','garlic','peppers'];
 
-function pizzaCall() {
+function pizza() {
 
-    let toppings = pizza.join(' and ');
+    var addToppings = pizzaToppings.join(' and ');
 
-    console.log('A delicious pizza with', toppings);
+    return('A delicious pizza that has git ' + addToppings);
 }
 
-pizzaCall();
+
+console.log(pizza());

@@ -2,8 +2,13 @@
 
 function sandwichCalculator(slicesOfBread, slicesOfCheese){
     var sandwiches = slicesOfBread / 2;
+    // if ( slicesOfBread < 2 && slicesOfCheese < 1) {
+    //     console.log (" you need more ingredients for sandwich ")
+    // } else if {
+    //     (sandwiches === )
+    // }
 
-    if((slicesOfBread > 1 ) && (slicesOfCheese < sandwiches) && (slicesOfCheese < sandwiches)){
+    if (slicesOfBread > 1  && slicesOfCheese < sandwiches ){
         sandwiches = slicesOfCheese;
         console.log(sandwiches);
         return sandwiches
@@ -16,5 +21,4 @@ function sandwichCalculator(slicesOfBread, slicesOfCheese){
     }
 
 }
-
-sandwichCalculator(10,5);
+ sandwichCalculator(30,20);
